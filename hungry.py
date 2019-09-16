@@ -1,10 +1,8 @@
-print("I am hungry")
-hungry=input("Are you hungry?")
-if hungry =="yes"
-    print("eat samosa")
-else
-    print("no")
+hungry = input("are you hungry?")
 
-food=input("which food you like")
-print("I like {0}", food);
-print("Testing branch at master")
+if hungry =="Yes":
+    print("eat samosa")
+    print("eat pizza")
+    print("eat burger")
+else
+    print("do your home work")
